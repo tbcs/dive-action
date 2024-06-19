@@ -33,7 +33,7 @@ function format(output: string): string {
         ret.push('| Count | Wasted Space | File Paht |')
         ret.push('|---|---|---|')
       } else {
-        // https://github.com/wagoodman/dive/blob/master/runtime/ci/evaluator.go#L140
+        // https://github.com/wagoodman/dive/blob/v0.12.0/runtime/ci/evaluator.go#L138
         ret.push(
           `| ${line.slice(0, 5)} | ${line.slice(7, 19)} | ${line.slice(21)} |`
         )
